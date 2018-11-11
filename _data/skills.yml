@@ -1,28 +1,28 @@
 -   id: javascript
-    descr: javascript
+    descr: Découpe laser
     xp: 6
 -   id: css
-    descr: css
+    descr: Découpe vinyle
     color: teal
     xp: 7
 -   id: c#
-    descr: c#
+    descr: Impression 3D
     xp: 3
 -   id: angular
-    descr: angularjs
+    descr: Fraiseuse CNC
     xp: 8
 -   id: java
-    descr: java
+    descr: Scan 3D
     xp: 5
 -   id: sass
-    descr: sass
+    descr: Domotique
     xp: 4
 -   id: jquery
-    descr: jquery
+    descr: Arduino
     xp: 3
 -   id: node.js
-    descr: node.js
+    descr: Raspberry Pi
     xp: 2
 -   id: php
-    descr: php
+    descr: Tech-it
     xp: 4
