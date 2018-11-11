@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Bonjour à tou.te.s"
 color:  teal
 width:   6
 height:  1
-date:   2016-03-30 11:31:49 +0200
+date:   2018-10-30 11:30:45 +0200
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
