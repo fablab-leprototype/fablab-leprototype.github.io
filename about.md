@@ -4,12 +4,8 @@ title: A propos
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Le "Fablab - Le Prototype" est une association qui a pour l'objectif de promouvoir la culture fablab localement sur Chambéry et ses environs et de faire essaimer des ateliers de fabrications numériques sur de nouveaux territoires et de les accompagner durant cette période charnière. Fablab = un atelier de fabrication numérique où l’on peut utiliser des machines de découpes (laser, vinyle), des imprimantes 3D,… permettant de travailler sur des matériaux variés : plastique, bois, carton, vinyle, … afin de créer toute sorte d’objet grâce à la conception assistée par ordinateur ou à l’électronique. Mais le Fablab est aussi un lieu d’échange de compétences technique.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Le "Fablab - Le Prototype" est un espace permanent : ouvert à tous, il offre la possibilité de réaliser des objets soi-même, de partager ses compétences et d’apprendre au contact des médiateurs du Fablab et des autres usagers.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+La formation au Fablab s’appuie sur des projets et le partage de connaissances : vous devez prendre part à la capitalisation des connaissances et à l’instruction des autres utilisateurs.
