@@ -25,7 +25,6 @@ La formation au Fablab s’appuie sur des projets et le partage de connaissances
 l’instruction des autres utilisateurs.
 
 ## Adresse postale
-*
-  * Fablab Le Prototype
-  * 67 rue Saint-François de Sales
-  * 73000 Chambéry
+* Fablab Le Prototype
+* 67 rue Saint-François de Sales
+* 73000 Chambéry
