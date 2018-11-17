@@ -23,3 +23,8 @@ d’apprendre au contact des médiateurs du Fablab et des autres usagers.
 La formation au Fablab s’appuie sur des projets et le partage de connaissances
 : vous devez prendre part à la capitalisation des connaissances et à
 l’instruction des autres utilisateurs.
+
+## Contact
+* Fablab Le Prototype
+  * 67 rue Saint-François de Sales
+  * 73000 Chambéry
