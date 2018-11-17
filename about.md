@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A propos
+title: Contact
 permalink: /about/
 ---
 
@@ -24,7 +24,8 @@ La formation au Fablab s’appuie sur des projets et le partage de connaissances
 : vous devez prendre part à la capitalisation des connaissances et à
 l’instruction des autres utilisateurs.
 
-## Contact
-* Fablab Le Prototype
+## Adresse postale
+*
+  * Fablab Le Prototype
   * 67 rue Saint-François de Sales
   * 73000 Chambéry
