@@ -28,5 +28,3 @@ l’instruction des autres utilisateurs.
 * Fablab Le Prototype
 * 67 rue Saint-François de Sales
 * 73000 Chambéry
-
-<div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
