@@ -24,9 +24,9 @@ Le siège social est _67 rue Saint-François de Sales, 73000 CHAMBÉRY_. Il pour
 La durée de l’association est illimitée. Elle pourra cependant prendre fin en cas de transformation en SCIC (Société coopérative d’intérêt collectif).
 ## ARTICLE 5 - COMPOSITION
 L'association se compose de : 
-1. Membres d'honneur ;
-2. Membres actifs adhérents ;
-3. Membre actif personne morale adhérent (organisation).
+- Membres d'honneur ;
+- Membres actifs adhérents ;
+- Membre actif personne morale adhérent (organisation).
 Les demandes d’adhésions se font suivant les modalités précisées dans le règlement intérieur. En cas de refus d’une demande d’adhésion, le bureau doit motiver sa décision.
 Est membre d’honneur toute personne morale ou physique, prise parmi les personnes qui rendent des services à l’association et dont l’adhésion est ratifiée par le bureau. Un membre d’honneur ne paie pas de cotisation et n’a pas le droit de vote. La nature des services est précisée en règlement intérieur.
 Est membre actif, toute personne physique qui adhère aux buts de l’association, accepte ses statuts et son règlement intérieur, dont la candidature est agréée par le bureau, et est à jour de sa cotisation.
@@ -38,17 +38,17 @@ L’association est ouverte à tous, sans condition ni distinction d’âge, de 
 Une cotisation doit être acquittée par les adhérents. Son montant, sa périodicité, ainsi que son mode de paiement, sont précisés dans le règlement intérieur.
 ## ARTICLE 8 - RADIATIONS
 La qualité de membre adhérent se perd par :
-1. La démission ; 
-2. Le décès ;
-3. La radiation prononcée par le bureau pour motif grave, après avis de la commission éthique-sécurité et règlement des conflits, l'intéressé ayant été invité par courrier électronique ou papier à fournir des explications devant le bureau. Il peut se faire assister par l’adhérent de son choix. Cela n’exclut pas un recours devant les tribunaux. Les modalités de radiation concernant les motifs graves sont précisées en règlement intérieur.
+- La démission ; 
+- Le décès ;
+- La radiation prononcée par le bureau pour motif grave, après avis de la commission éthique-sécurité et règlement des conflits, l'intéressé ayant été invité par courrier électronique ou papier à fournir des explications devant le bureau. Il peut se faire assister par l’adhérent de son choix. Cela n’exclut pas un recours devant les tribunaux. Les modalités de radiation concernant les motifs graves sont précisées en règlement intérieur.
 ## ARTICLE 9 - AFFILIATION
 L’association peut adhérer à d’autres associations, unions ou regroupements par décision du bureau après avis du conseil “_éthique-sécurité et règlement des conflits_” quant à la compatibilité des statuts entre association (démocratie, objet). L’assemblée générale devra statuer sur cette adhésion.
 ## ARTICLE 10 - RESSOURCES
 Les ressources de l'association comprennent : 
-1. Le montant des droits d'entrée et des cotisations ;
-2. Les subventions de l'état, des départements et des communes ;
-3. Ressources issues d'activités économiques en lien avec les activités techniques, pédagogiques, scientifiques, artistiques, formatives du fablab ;
-4. Toutes les ressources autorisées par les lois et règlements en vigueur.
+- Le montant des droits d'entrée et des cotisations ;
+- Les subventions de l'état, des départements et des communes ;
+- Ressources issues d'activités économiques en lien avec les activités techniques, pédagogiques, scientifiques, artistiques, formatives du fablab ;
+- Toutes les ressources autorisées par les lois et règlements en vigueur.
 ## ARTICLE 11 - ASSEMBLEE GENERALE ORDINAIRE
 L’assemblée générale ordinaire comprend les membres actifs de l’association. Elle se réunit au moins une fois par année calendaire, à une date fixée par le bureau. Quinze jours avant la date fixée, les membres actifs sont convoqués par affichage dans les locaux de l’association, courrier papier ou électronique. L’ordre du jour doit être indiqué sur la convocation.
 Chaque adhérent peut solliciter l’ajout de questions à l’ordre du jour.
