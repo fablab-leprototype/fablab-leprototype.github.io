@@ -8,25 +8,25 @@ date:   2017-05-20 11:30:45 +0200
 categories: jekyll update
 ---
 ## ARTICLE PREMIER - NOM
-Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre : « FABLAB LE PROTOTYPE ».
+Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre : « **FABLAB LE PROTOTYPE** ».
 ## ARTICLE 2 - BUT OBJET
 Cette association a pour but :
-• de proposer à ses adhérents un espace de travail appelé « fablab »et des ressources communes, destinés à la réalisation de projets coopératifs ayant une composante scientifique ou technique ou artistique ;
-• de favoriser la transmission non marchande des savoir-faire et connaissances scientifiques ou techniques, notamment en publiant le travail des adhérents sur les projets effectués dans le cadre de l’association ;
-• d’engager des actions susceptibles d’accroître la liberté d’utiliser, de créer, d’analyser, de modifier les objets technologiques et logiciels ;
-• d’agir pour la promotion des sciences et techniques auprès du grand public en organisant et participant à des évènements ;
-• d'assurer la promotion des logiciels libres utilisés dans le cadre des activités d’un espace « fablab » ;
-• de mettre en place des activités économiques afin de pérenniser l’espace « fablab » en obéissant aux principes de l’économie solidaire ;
-• mettre en place un cadre qui peut favoriser l'insertion professionnelle des adhérents par l’organisation de formation.
+- de proposer à ses adhérents un espace de travail appelé « fablab »et des ressources communes, destinés à la réalisation de projets coopératifs ayant une composante scientifique ou technique ou artistique ;
+- de favoriser la transmission non marchande des savoir-faire et connaissances scientifiques ou techniques, notamment en publiant le travail des adhérents sur les projets effectués dans le cadre de l’association ;
+- d’engager des actions susceptibles d’accroître la liberté d’utiliser, de créer, d’analyser, de modifier les objets technologiques et logiciels ;
+- d’agir pour la promotion des sciences et techniques auprès du grand public en organisant et participant à des évènements ;
+- d'assurer la promotion des logiciels libres utilisés dans le cadre des activités d’un espace « fablab » ;
+- de mettre en place des activités économiques afin de pérenniser l’espace « fablab » en obéissant aux principes de l’économie solidaire ;
+- mettre en place un cadre qui peut favoriser l'insertion professionnelle des adhérents par l’organisation de formation.
 ## ARTICLE 3 - SIÈGE SOCIAL
-Le siège social est 67 rue Saint-François de Sales, 73000 CHAMBÉRY. Il pourra être transféré par simple décision du bureau.
+Le siège social est _67 rue Saint-François de Sales, 73000 CHAMBÉRY_. Il pourra être transféré par simple décision du bureau.
 ## ARTICLE 4 - DURÉE
 La durée de l’association est illimitée. Elle pourra cependant prendre fin en cas de transformation en SCIC (Société coopérative d’intérêt collectif).
 ## ARTICLE 5 - COMPOSITION
 L'association se compose de : 
-a) Membres d'honneur ;
-b) Membres actifs adhérents ;
-c) Membre actif personne morale adhérent (organisation).
+1. Membres d'honneur ;
+2. Membres actifs adhérents ;
+3. Membre actif personne morale adhérent (organisation).
 Les demandes d’adhésions se font suivant les modalités précisées dans le règlement intérieur. En cas de refus d’une demande d’adhésion, le bureau doit motiver sa décision.
 Est membre d’honneur toute personne morale ou physique, prise parmi les personnes qui rendent des services à l’association et dont l’adhésion est ratifiée par le bureau. Un membre d’honneur ne paie pas de cotisation et n’a pas le droit de vote. La nature des services est précisée en règlement intérieur.
 Est membre actif, toute personne physique qui adhère aux buts de l’association, accepte ses statuts et son règlement intérieur, dont la candidature est agréée par le bureau, et est à jour de sa cotisation.
@@ -38,17 +38,17 @@ L’association est ouverte à tous, sans condition ni distinction d’âge, de 
 Une cotisation doit être acquittée par les adhérents. Son montant, sa périodicité, ainsi que son mode de paiement, sont précisés dans le règlement intérieur.
 ## ARTICLE 8 - RADIATIONS
 La qualité de membre adhérent se perd par :
-a) La démission ; 
-b) Le décès ;
-c) La radiation prononcée par le bureau pour motif grave, après avis de la commission éthique-sécurité et règlement des conflits, l'intéressé ayant été invité par courrier électronique ou papier à fournir des explications devant le bureau. Il peut se faire assister par l’adhérent de son choix. Cela n’exclut pas un recours devant les tribunaux. Les modalités de radiation concernant les motifs graves sont précisées en règlement intérieur.
+1. La démission ; 
+2. Le décès ;
+3. La radiation prononcée par le bureau pour motif grave, après avis de la commission éthique-sécurité et règlement des conflits, l'intéressé ayant été invité par courrier électronique ou papier à fournir des explications devant le bureau. Il peut se faire assister par l’adhérent de son choix. Cela n’exclut pas un recours devant les tribunaux. Les modalités de radiation concernant les motifs graves sont précisées en règlement intérieur.
 ## ARTICLE 9 - AFFILIATION
-L’association peut adhérer à d’autres associations, unions ou regroupements par décision du bureau après avis du conseil “éthique-sécurité et règlement des conflits” quant à la compatibilité des statuts entre association (démocratie, objet). L’assemblée générale devra statuer sur cette adhésion.
+L’association peut adhérer à d’autres associations, unions ou regroupements par décision du bureau après avis du conseil “_éthique-sécurité et règlement des conflits_” quant à la compatibilité des statuts entre association (démocratie, objet). L’assemblée générale devra statuer sur cette adhésion.
 ## ARTICLE 10 - RESSOURCES
 Les ressources de l'association comprennent : 
-1) Le montant des droits d'entrée et des cotisations ;
-2) Les subventions de l'état, des départements et des communes ;
-3) Ressources issues d'activités économiques en lien avec les activités techniques, pédagogiques, scientifiques, artistiques, formatives du fablab ;
-4) Toutes les ressources autorisées par les lois et règlements en vigueur.
+1. Le montant des droits d'entrée et des cotisations ;
+2. Les subventions de l'état, des départements et des communes ;
+3. Ressources issues d'activités économiques en lien avec les activités techniques, pédagogiques, scientifiques, artistiques, formatives du fablab ;
+4. Toutes les ressources autorisées par les lois et règlements en vigueur.
 ## ARTICLE 11 - ASSEMBLEE GENERALE ORDINAIRE
 L’assemblée générale ordinaire comprend les membres actifs de l’association. Elle se réunit au moins une fois par année calendaire, à une date fixée par le bureau. Quinze jours avant la date fixée, les membres actifs sont convoqués par affichage dans les locaux de l’association, courrier papier ou électronique. L’ordre du jour doit être indiqué sur la convocation.
 Chaque adhérent peut solliciter l’ajout de questions à l’ordre du jour.
