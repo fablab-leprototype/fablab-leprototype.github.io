@@ -49,13 +49,13 @@ Les ressources de l'association comprennent :
 - Les subventions de l'état, des départements et des communes ;
 - Ressources issues d'activités économiques en lien avec les activités techniques, pédagogiques, scientifiques, artistiques, formatives du fablab ;
 - Toutes les ressources autorisées par les lois et règlements en vigueur.
-## ARTICLE 11 - ASSEMBLEE GENERALE ORDINAIRE
+## ARTICLE 11 - ASSEMBLÉE GENERALE ORDINAIRE
 L’assemblée générale ordinaire comprend les membres actifs de l’association. Elle se réunit au moins une fois par année calendaire, à une date fixée par le bureau. Quinze jours avant la date fixée, les membres actifs sont convoqués par affichage dans les locaux de l’association, courrier papier ou électronique. L’ordre du jour doit être indiqué sur la convocation.
 Chaque adhérent peut solliciter l’ajout de questions à l’ordre du jour.
 Les membres actifs qui seraient dans l’impossibilité de se rendre à l’assemblée générale peuvent donner procuration à un autre membre actif de l’association pour les représenter à l’assemblée générale, selon les modalités précisées dans le règlement intérieur. L’assemblée délibère sur tous les points inscrits à l’ordre du jour.
 Les décisions sont prises à la majorité des voix des membres présents ou représentés (ou des suffrages exprimés). En cas d’égalité, le président départage. Il est procédé, après épuisement de l'ordre du jour, à l’élection ou au renouvellement des membres sortants du bureau. Le bureau doit être représenté à 50 % à l’assemblée.
 Toutes les délibérations sont prises à main levée, excepté l’élection des membres du bureau. Les décisions des assemblées générales s’imposent à tous les membres, y compris absents ou représentés.
-## ARTICLE 12 - ASSEMBLEE GENERALE EXTRAORDINAIRE
+## ARTICLE 12 - ASSEMBLÉE GENERALE EXTRAORDINAIRE
 L’assemblée générale extraordinaire comprend les membres actifs de l’association. Elle peut être réunie par simple demande du président, de la majorité des membres du bureau ou de la majorité des membres actifs de l’association. La convocation, la délibération et le vote se font suivant les mêmes modalités que pour l’assemblée générale ordinaire. Seule l’assemblée générale extraordinaire est compétente pour modifier les statuts, décider la dissolution, la transformation en société coopérative, la fusion de l’association avec toute autre association poursuivant le même objet ou les mêmes orientations.
 ## ARTICLE 13 - BUREAU DE L’ASSOCIATION
 L'association est dirigée par un bureau minimum de 6 membres, élus pour 3 années par l'assemblée générale. Les membres sont rééligibles. Les conditions d’éligibilité sont définies en règlement intérieur.
@@ -67,9 +67,9 @@ Le trésorier est chargé de la gestion du patrimoine de l’association, il eff
 Le secrétaire est chargé de la saisie des comptes-rendus de réunion et de la communication interne et externe de l’association, en accord avec le bureau. En cas d’indisponibilité, il peut être remplacé par un fabmanager.
 Les postes de président et trésorier ne sont pas cumulables.
 Le Fabmanager est chargé de la gestion technique et administrative de l’espace « fablab » et de prévoir, organiser les activités des membres.
-## ARTICLE 14 - INDEMNITES
+## ARTICLE 14 - INDEMNITÉS
 Toutes les fonctions administratives des membres du bureau sont gratuites et bénévoles. Seuls les frais occasionnés par l’accomplissement de leur mandat sont remboursés sur justificatifs. Des missions techniques précises peuvent donner lieu à remboursement de frais. Le rapport financier présenté à l’assemblée générale ordinaire présente, par bénéficiaire, les remboursements de frais de mission, de déplacement ou de représentation.
-## ARTICLE 15 - REGLEMENT INTERIEUR
+## ARTICLE 15 - REGLEMENT INTÉRIEUR
 Un règlement intérieur est établi par le bureau, qui le fait alors approuver par l'assemblée générale.
 Ce règlement éventuel est destiné à fixer les divers points non prévus par les présents statuts, notamment ceux qui ont trait à l'administration interne de l'association.
 Le fonctionnement de l’association est régi par son règlement intérieur. Les modifications ultérieures du règlement intérieur se font suivant les modalités précisées dans la version en vigueur de ce même règlement.
