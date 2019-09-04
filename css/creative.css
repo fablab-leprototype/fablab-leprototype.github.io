@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Nunito', Arial, sans-serif;
 }
 hr {
   border-width: 3px;
@@ -23,6 +23,7 @@ a {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: #f4a14d;
+  font-weight: bold;
 }
 a:hover,
 a:focus {
