@@ -152,6 +152,9 @@ section#about {
 
 }
 
+img.maxw64px {
+  max-width: 64px;
+}
 .container {
   margin-top: 10vh;
 }
