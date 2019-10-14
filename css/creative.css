@@ -140,6 +140,7 @@ header .header-content .header-content-inner p {
 section {
   min-height: 100vh;
   overflow: hidden;
+  margin-top: 10px;
   margin-bottom: 60px;
 }
 
