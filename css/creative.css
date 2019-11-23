@@ -367,7 +367,7 @@ body {
 }
 
 nav#mainNav {
-  background: #f4a14d;
+  background-color: #f4a14d;
   color: black;
 }
 
@@ -380,6 +380,10 @@ nav#mainNav {
   line-height: 60px;
   background: #f4a14d;
   overflow: hidden;
+}
+
+.row-colored {
+  background-color: #f4a14d;
 }
 
 .footer > div {
