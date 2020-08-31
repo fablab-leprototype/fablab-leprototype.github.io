@@ -393,3 +393,16 @@ nav#mainNav {
 .footer a, .footer p {
       color: white;
 }
+
+/* custom colors */
+.pro-color {
+  color: #4289da;
+}
+
+.makerspace-color {
+  color: #fd690a;
+}
+
+.asso-color {
+  color: #ffab40;
+}
