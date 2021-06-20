@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx @11ty/eleventy",
-    "serve": "npx @11ty/eleventy --serve"
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "clean": "rimraf docs"
   },
   "keywords": [],
   "author": "Pierre Mauduit",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
   }
 }
