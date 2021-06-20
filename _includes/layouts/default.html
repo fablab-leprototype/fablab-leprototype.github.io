@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
     {% include head.html %}
-    <body id="page-top">
+    <body id="page-top" class="flex flex-col h-full">
         {% include top-navbar.html %}
         {{ content | safe }}
         {% include footer.html %}
     </body>
+    <script src="/assets/js/script.js"></script>
 </html>
