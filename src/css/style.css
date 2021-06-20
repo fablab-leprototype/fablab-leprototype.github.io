@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom colors */
+.pro-color {
+  color: #4289da;
+}
+
+.makerspace-color {
+  color: #fd690a;
+}
+
+.asso-color {
+  color: #ffab40;
+}
+
+img.machines-gallery {
+  max-width: 200px;
+}
+
+.bg-orange {
+  background-color: #f4a14d;
+}
+
+section {
+  margin-top: 6em;
+  margin-bottom: 4em;
+}
