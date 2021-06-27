@@ -141,7 +141,7 @@ section {
   min-height: 100vh;
   overflow: hidden;
   margin-top: 10px;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 section#about {
