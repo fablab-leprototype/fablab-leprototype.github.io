@@ -96,6 +96,9 @@
         <a class="next" onclick="changeSlide(1)">&#10095;</a>
     </div>
 
+    <div w3-include-html="footer.html"></div>
+
+
 
 
     <script>
@@ -132,6 +135,7 @@
       includeHTML();
     </script>
 
+    <!-- Caroussel BEGIN -->
     <script>
         let slideIndex = 0;
         const slides = document.getElementsByClassName("carousel-slide");
@@ -152,5 +156,6 @@
 
         setInterval(() => changeSlide(1), 10000);
     </script>
+    <!-- Caroussel END -->
 </body>
 </html>
