@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réalisations</title>
+    <style>
+        .carousel-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .carousel-slide {
+            display: none;
+            text-align: center;
+        }
+        .carousel-slide.active {
+            display: block;
+        }
+        .carousel-image {
+            max-width: 100%;
+            height: auto;
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 16px;
+            background: rgba(0,0,0,0.5);
+            color: white;
+            cursor: pointer;
+        }
+        .next {
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel-slide active">
+            <img src="https://picsum.photos/800/400" class="carousel-image">
+            <h2>Projet 1</h2>
+            <p>Description du premier projet avec des détails sur sa réalisation et ses objectifs.</p>
+        </div>
+        <div class="carousel-slide">
+            <img src="https://picsum.photos/800/401" class="carousel-image">
+            <h2>Projet 2</h2>
+            <p>Description du deuxième projet, expliquant les technologies utilisées et les résultats obtenus.</p>
+        </div>
+        <div class="carousel-slide">
+            <img src="https://picsum.photos/800/402" class="carousel-image">
+            <h2>Projet 3</h2>
+            <p>Présentation du troisième projet avec ses caractéristiques principales et son impact.</p>
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        const slides = document.getElementsByClassName("carousel-slide");
+
+        function changeSlide(n) {
+            slides[slideIndex].classList.remove('active');
+            slideIndex += n;
+
+            if (slideIndex >= slides.length) {
+                slideIndex = 0;
+            }
+            if (slideIndex < 0) {
+                slideIndex = slides.length - 1;
+            }
+
+            slides[slideIndex].classList.add('active');
+        }
+
+        setInterval(() => changeSlide(1), 5000);
+    </script>
+</body>
+</html>
