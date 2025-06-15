@@ -17,42 +17,10 @@
 
   <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+    <div w3-include-html="header.html"></div>
 
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="index.html">
-                  <img src="imgs/logo.png" alt="logo" />
-                </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-left">
-                    <li>
-                        <a class="page-scroll" href="about.html">Qui sommes-nous ?</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="offre.html">Notre offre</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="lieux.html">Nos lieux</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="machines.html">Les machines</a>
-                    </li>
-                    <li>
-                      <a class="page-scroll" href="agenda.html">Agenda</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+
+    
 
     <section id="machines">
       <div class="container">
@@ -225,6 +193,41 @@
         </div>
       </div>
     </footer>
+
+    
+   <script>
+      function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+              if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }      
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+    </script>
+
+    <script>
+      includeHTML();
+    </script>
 
   </body>
   <!-- jQuery -->
