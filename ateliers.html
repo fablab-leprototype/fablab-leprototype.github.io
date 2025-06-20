@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>leprototype.info</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
+  </head>
+
+    <title>Ateliers</title>
+    <style>
+        .carousel-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .carousel-slide {
+            display: none;
+            text-align: center;
+        }
+        .carousel-slide.active {
+            display: block;
+        }
+        .carousel-image {
+            max-width: 100%;
+            height: auto;
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 16px;
+            background: rgba(0,0,0,0.5);
+            color: white;
+            cursor: pointer;
+        }
+        .next {
+            right: 0%;
+        }
+        .prev { 
+            right: 95% ;
+        }
+    </style>
+</head>
+<body>
+      <div w3-include-html="header.html"></div>
+
+  
+
+      <div class="col-lg-12">
+          <h1 class="text-center">--= Mise à jour des activités en cours =--</h2><br>
+          <h2 class="text-center">Impression 3D, découpe laser, DYI, Domotique, Programmation, Robotique...</h2>
+          <hr class="light">
+          <hr>
+      </div>
+
+
+      <div class="carousel-container">
+        <div class="carousel-slide active">
+            <h2>Atelier Conception et découpe laser </h2>
+            <img src="imgs/ateliers/chateau.png" class="carousel-image">
+        </div>
+ 
+        <div class="carousel-slide">
+            <h2>Atelier Initiation à l'Impression 3D </h2>
+            <img src="imgs/ateliers/impression3d_1.jpg" class="carousel-image">
+        </div>  
+        <div class="carousel-slide">
+            <h2>Atelier Initiation à l'Impression 3D </h2>
+            <img src="imgs/ateliers/impression3d_2.jpg" class="carousel-image">
+        </div>
+        <div class="carousel-slide">
+            <h2>Atelier Domotique</h2>
+            <img src="imgs/ateliers/domotique_2.jpg" class="carousel-image">
+        </div>  
+        <div class="carousel-slide">
+            <h2>Atelier Domotique</h2>
+            <img src="imgs/ateliers/domotique_1.jpg" class="carousel-image">
+        </div>  
+        <div class="carousel-slide">
+            <h2>Atelier Robotique, DYI</h2>
+            <img src="imgs/ateliers/robotique.jpg" class="carousel-image">
+        </div>  
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <div w3-include-html="footer.html"></div>
+
+
+    <script>
+      function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+              if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }      
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+    </script>
+
+    <script>
+      includeHTML();
+    </script>
+
+    <!-- Caroussel BEGIN -->
+    <script>
+        let slideIndex = 0;
+        const slides = document.getElementsByClassName("carousel-slide");
+
+        function changeSlide(n) {
+            slides[slideIndex].classList.remove('active');
+            slideIndex += n;
+
+            if (slideIndex >= slides.length) {
+                slideIndex = 0;
+            }
+            if (slideIndex < 0) {
+                slideIndex = slides.length - 1;
+            }
+
+            slides[slideIndex].classList.add('active');
+        }
+
+        setInterval(() => changeSlide(1), 60000);
+    </script>
+    <!-- Caroussel END -->
+</body>
+</html>
