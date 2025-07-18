@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // *** REMPLACEZ CETTE URL PAR L'URL DE VOTRE WEBHOOK N8N ***
     // C'est l'URL que vous obtiendrez du nœud Webhook de n8n.
-    const N8N_WEBHOOK_URL = 'https://n8n.srv813846.hstgr.cloud/webhook-test/94a24c38-58f0-499e-b2d3-943be4d20519'; 
+    const N8N_WEBHOOK_URL_TEST = 'https://n8n.srv813846.hstgr.cloud/webhook-test/94a24c38-58f0-499e-b2d3-943be4d20519'; 
+    const N8N_WEBHOOK_URL_PROD = 'https://n8n.srv813846.hstgr.cloud/webhook/94a24c38-58f0-499e-b2d3-943be4d20519'; 
+    const N8N_WEBHOOK_URL = N8N_WEBHOOK_URL_PROD ;
 
     // Fonction pour ajouter un message au chat
     function addMessage(sender, text) {
