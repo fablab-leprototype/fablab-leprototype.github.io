@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('contactForm');
     const statusDiv = document.getElementById('status');
-    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxB-6mspici3--AC6JmM3PnRnm0fxECvzxE1k_22WNOraUH5W6mqKsLou4nOz-UnI4UpQ/exec' ;
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz9pT6F46auO25eKvDyss-wewhNh4QrAs8iqNu6BV7KaiaqyO2U21sy_e6LpwyyNoEFVw/exec' ;
     form.addEventListener('submit', function(e) {
         e.preventDefault(); // Empêche la soumission normale du formulaire
 
