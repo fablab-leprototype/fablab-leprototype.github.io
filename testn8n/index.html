@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div width="100%">
+    <div class="chat-container" >
         <h1>Discutez avec l'agent n8n</h1>
+        <div class="chat-actions">
+            <button id="imageBtn" class="action-btn">Image</button>
+            <button id="emailBtn" class="action-btn">Email</button>
+        </div>
         <div class="chat-display" id="chatDisplay">
-            </div>
+            <!-- Les messages du chat s'afficheront ici -->
+        </div>
         <form class="chat-form" id="chatForm">
             <input type="text" id="userInput" placeholder="Tapez votre message ici..." required>
             <button type="submit">Envoyer</button>

@@ -2,12 +2,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const chatForm = document.getElementById('chatForm');
     const userInput = document.getElementById('userInput');
     const chatDisplay = document.getElementById('chatDisplay');
+    const imageBtn = document.getElementById('imageBtn'); // Nouveau bouton Image
+    const emailBtn = document.getElementById('emailBtn'); // Nouveau bouton Email
 
     const N8N_WEBHOOK_URL_TEST = 'https://n8n.srv813846.hstgr.cloud/webhook-test/94a24c38-58f0-499e-b2d3-943be4d20519'; 
     const N8N_WEBHOOK_URL_PROD = 'https://n8n.srv813846.hstgr.cloud/webhook/94a24c38-58f0-499e-b2d3-943be4d20519'; 
     const N8N_WEBHOOK_URL = N8N_WEBHOOK_URL_PROD ;
 
-    // Fonction pour ajouter un message au chat
+     // Fonction pour ajouter un message au chat
     function addMessage(sender, text) {
         const messageDiv = document.createElement('div');
         messageDiv.classList.add('message', sender);
@@ -15,6 +17,19 @@ document.addEventListener('DOMContentLoaded', () => {
         chatDisplay.appendChild(messageDiv);
         chatDisplay.scrollTop = chatDisplay.scrollHeight; // Scroll vers le bas
     }
+
+    // Gestionnaire d'événement pour le bouton "Image"
+    imageBtn.addEventListener('click', () => {
+        userInput.value = 'img: '; // Prépare le message avec "img: "
+        userInput.focus(); // Met le focus sur le champ de saisie
+    });
+
+    // Gestionnaire d'événement pour le bouton "Email"
+    emailBtn.addEventListener('click', () => {
+        // Ajoute ". Email cela a l'adresse" au message actuel
+        userInput.value += ' . Email cela a l\'adresse'; 
+        userInput.focus(); // Met le focus sur le champ de saisie
+    });
 
     chatForm.addEventListener('submit', async (event) => {
         event.preventDefault(); // Empêche le rechargement de la page

@@ -13,7 +13,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 600px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -26,6 +26,30 @@ h1 {
     text-align: center;
     margin: 0;
     font-size: 1.5em;
+}
+
+.chat-actions {
+    display: flex;
+    justify-content: center; /* Centre les boutons */
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eee;
+    gap: 10px; /* Espace entre les boutons */
+}
+
+.action-btn {
+    background-color: #6c757d; /* Couleur grise par défaut */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #5a6268;
 }
 
 .chat-display {
