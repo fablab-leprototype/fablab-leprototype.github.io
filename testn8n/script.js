@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function addMessage(sender, text) {
         const messageDiv = document.createElement('div');
         messageDiv.classList.add('message', sender);
-        messageDiv.textContent = text;
+        messageDiv.innerHTML = text;
         chatDisplay.appendChild(messageDiv);
         chatDisplay.scrollTop = chatDisplay.scrollHeight; // Scroll vers le bas
     }
