@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('contactForm');
     const statusDiv = document.getElementById('status');
-    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyGkieQN0BzmnUGa5LFQAdBjPJ9CldVoKqB0IRbqTPjpTPuzvcTRj8a3kP7tPz2hSM2/exec';
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz3w3PLeGfz_kk8U79kMrMbwJxtbDWyIhPHf1mC5ar1kDPMf0QJlbZ7O4moPfw_etXs/exec';
     form.addEventListener('submit', function(e) {
         e.preventDefault(); // Empêche la soumission normale du formulaire
 
@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(data => {
             if (data.result === 'success') {
-                statusDiv.innerHTML = 'Message envoyé avec succès !';
+                statusDiv.innerHTML = 'Demande de réservation envoyée avec succès !';
                 statusDiv.className = 'status-success';
                 form.reset(); // Réinitialise le formulaire
             } else {
-                statusDiv.innerHTML = 'Erreur lors de l\'envoi du message.';
+                statusDiv.innerHTML = 'Erreur lors de l\'envoi Demande de la réservation.';
                 statusDiv.className = 'status-error';
                 console.error('Erreur du serveur:', data);
             }
