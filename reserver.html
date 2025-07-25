@@ -34,11 +34,12 @@
             </div>
             <div class="form-group">
                <label for="message">Machine ?</label>
-                <select name="machine" onChange="combo(this, 'theinput')">
-                  <option>Découpe Laser</option>
-                  <option>Imprimante 3D</option>
-                  <option>Plotter de découpe Caméo</option>
-                  <option>Accès à l'outillage de l'atelier</option>
+               <input type="text" name="machine" list="machineList">
+                <datalist id="machineList">
+                  <option value="laser">Découpe Laser</option>
+                  <option value="imprimante3d">Imprimante 3D</option>
+                  <option value="plotter">Plotter de découpe Caméo</option>
+                  <option value="outillage">Accès à l'outillage de l'atelier</option>
                 </select>
                 <input type="date" id="quand" name="quand">
             </div>
