@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('contactForm');
     const statusDiv = document.getElementById('status');
     const SCRIPT_URL = 'https://script.google.com/a/macros/leprototype.info/s/AKfycbwcbPWzg1rZw1LMe13-UGN8VRyF9wRCi-1w7DqtvcYbRxLqtcka9FsDF3WfQJQ04bX4/exec';
+    
     form.addEventListener('submit', function(e) {
         e.preventDefault(); // Empêche la soumission normale du formulaire
 
