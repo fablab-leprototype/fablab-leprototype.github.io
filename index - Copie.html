@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>leprototype.info</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+  <div w3-include-html="header.html"></div>
+
+    <section id="index">
+        <div class="container">
+            <div class="row vertical-align">
+              <div class="col-lg-2 col-lg-offset-2">
+                <img src="imgs/pictos/Picto-08.jpg" alt="picto" style="max-width: 150px;"/>
+              </div>
+              <div class="col-lg-6">
+                <p>Créée début 2017, l'association "Fablab Le prototype" a pour
+                  vocation d’accompagner ses adhérents à faire par eux-même, en local
+                  et en coopération.</p>
+                <p><br>Vous pouvez nous <a href="mailto:contact@leprototype.info">contacter par mail</a>  : contact@leprototype.info 
+                <br>ou nous ... <a href="sendmessage.html">laisser un message</a>
+                </p>
+                <p>
+                  <i><b><u>Notre adresse:</u></b> <br>
+                       414 Rue de l'Église<br/>
+                       73490 LA RAVOIRE</i>&nbsp;&nbsp;&nbsp;&nbsp;  <a href="https://maps.app.goo.gl/6oY5X9NHnBb23o4cA" target="_blank">Open in Map</a>
+                </p>
+              </div>
+            </div>
+            
+            <div class="row vertical-align">
+            <div class="col-lg-2 col-lg-offset-2">
+              <img src="imgs/pictos/Picto-14.jpg" alt="picto" style="max-width: 150px;"/>
+            </div>
+            <div class="col-lg-6">
+              <p>L’association est ouverte à tous:
+                enfants, ados, étudiants, particuliers, travailleurs indépendants,
+                professionnels, institutionnels...</p>
+            </div>
+          </div>
+          <div class="row vertical-align">
+            <div class="col-lg-6 col-lg-offset-2">
+              <p>Nous proposons <a href="offre.html">un accès facilité aux machines numériques, ainsi que des
+                formations et divers ateliers.</a></p>
+            </div>
+            <div class="col-lg-2">
+              <img src="imgs/pictos/Picto-15.jpg" alt="picto" style="max-width: 150px;"/>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <div w3-include-html="footer.html"></div>
+
+
+   <script>
+      function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+              if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }      
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+    </script>
+
+    <script>
+      includeHTML();
+    </script>
+
+  </body>
+  <!-- jQuery -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+</html>
