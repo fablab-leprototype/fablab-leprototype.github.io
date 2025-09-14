@@ -1,0 +1,5 @@
+{
+  "name": "AI Podcast Script Generator",
+  "description": "An application that uses Gemini to generate podcast scripts on any topic.",
+  "requestFramePermissions": []
+}
